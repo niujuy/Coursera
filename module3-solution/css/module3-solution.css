@@ -1,11 +1,8 @@
 .navbar {
   border: solid black;
-  border-top-width: 4px;
-  border-bottom-width: 4px;
-  border-right-width: 0px;
-  border-left-width: 0px;
-  height: 100px;
-  background-color: grey
+  border-width: 4px;
+  background-color: grey;
+  padding-bottom: 0px;
   }
 
 .navbar-brand { 
@@ -17,10 +14,10 @@
 
 #nav-list {
   margin-top: 4px;
-  background-color: dimgrey;
+  background-color: white;
   border: solid black;
   border-top-width: 4px;
-  border-bottom-width: 4px;
+  border-bottom-width: 2px;
   border-right-width: 2px;
   border-left-width: 2px;
   width: 100%;
@@ -48,6 +45,18 @@
   margin-top: 30px;
 }
 
+#one {
+  padding-bottom: 4px;
+}
+
+#two {
+   padding-top: 4px;
+}
+
+#three {
+   padding-top: 0px;
+}
+
 section {
   margin: 50px;
   background-color: grey;
@@ -61,6 +70,6 @@ h5 {
   margin-bottom: 0;
 }
 
-#navbarSupportedContent {
-  margin-top: 25px;
+hr {
+  margin: 0;
 }
